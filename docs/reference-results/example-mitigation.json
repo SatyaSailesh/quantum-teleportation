@@ -1,0 +1,98 @@
+{
+  "method": "Digital channel-repetition zero-noise extrapolation",
+  "settings": {
+    "channel": "depolarizing",
+    "p": 0.1,
+    "locations": [
+      "bell_cx_q2"
+    ],
+    "scales": [
+      1,
+      2,
+      3
+    ],
+    "degree": 1,
+    "target": "average",
+    "sample_count": 96,
+    "theta": 1.5707963267948966,
+    "phi": 0.7853981633974483
+  },
+  "points": [
+    {
+      "scale": 1,
+      "fidelity": 0.9499999999999996,
+      "average_fidelity": 0.9499999999999996,
+      "state_fidelity": 0.9499999999999998,
+      "effective_p_per_site": 0.09999999999999998,
+      "channel_instructions": 1,
+      "noise": {
+        "enabled": true,
+        "channel": "depolarizing",
+        "p": 0.1,
+        "locations": [
+          "bell_cx_q2"
+        ]
+      }
+    },
+    {
+      "scale": 2,
+      "fidelity": 0.9049999999999995,
+      "average_fidelity": 0.9049999999999995,
+      "state_fidelity": 0.9049999999999996,
+      "effective_p_per_site": 0.18999999999999995,
+      "channel_instructions": 2,
+      "noise": {
+        "enabled": true,
+        "channel": "depolarizing",
+        "p": 0.1,
+        "locations": [
+          "bell_cx_q2"
+        ]
+      }
+    },
+    {
+      "scale": 3,
+      "fidelity": 0.8644999999999996,
+      "average_fidelity": 0.8644999999999996,
+      "state_fidelity": 0.8644999999999996,
+      "effective_p_per_site": 0.2709999999999999,
+      "channel_instructions": 3,
+      "noise": {
+        "enabled": true,
+        "channel": "depolarizing",
+        "p": 0.1,
+        "locations": [
+          "bell_cx_q2"
+        ]
+      }
+    }
+  ],
+  "baseline_fidelity": 0.9499999999999996,
+  "ideal_fidelity": 1.0,
+  "extrapolated_fidelity": 0.9919999999999995,
+  "fit": {
+    "estimate": 0.9919999999999995,
+    "weights": [
+      1.3333333333333335,
+      0.33333333333333315,
+      -0.6666666666666667
+    ],
+    "coefficients": [
+      0.9919999999999995,
+      -0.04274999999999997
+    ],
+    "fit_rmse": 0.0010606601717799138,
+    "physical": true
+  },
+  "improved": true,
+  "improvement": 0.041999999999999926,
+  "before_error": 0.05000000000000038,
+  "after_error": 0.008000000000000451,
+  "sample_id": "6663b1d1c042e1f9",
+  "warnings": [
+    "This is an extrapolated fidelity estimate, not a recovered density matrix or a corrected physical state.",
+    "Noise is amplified by repeating the selected Kraus channel on Bob's Bell qubit q2 (digital channel repetition; not pulse stretching or gate folding).",
+    "The model assumes the same independent, stationary channel at each repetition. No hardware noise calibration is inferred.",
+    "Extrapolation has model bias; shot-based hardware would also amplify statistical uncertainty."
+  ]
+}

@@ -1,0 +1,17 @@
+
+> qubitlab-teleportation@1.0.0 test:e2e
+> playwright test
+
+
+Running 8 tests using 1 worker
+
+  ✓  1 [chromium] › tests/e2e/application.spec.ts:6:1 › ideal startup, real API proxy, and synchronized circuit (2.7s)
+  ✓  2 [chromium] › tests/e2e/application.spec.ts:19:1 › state parameters, in-circuit depolarizing noise, native drawing, and reset (4.2s)
+  ✓  3 [chromium] › tests/e2e/application.spec.ts:39:1 › four channel selection buttons and combined-stage noise are functional (2.7s)
+  ✓  4 [chromium] › tests/e2e/application.spec.ts:55:1 › real average-fidelity graphs, selected table, shared sample, and CSV export (4.7s)
+  ✓  5 [chromium] › tests/e2e/application.spec.ts:78:1 › actual zero-noise extrapolation and a high-noise non-improving case (2.1s)
+  ✓  6 [chromium] › tests/e2e/application.spec.ts:88:1 › all six pages, viva accordions, and separate architecture diagram (3.5s)
+  ✓  7 [chromium] › tests/e2e/application.spec.ts:102:1 › backend failure displays the actual error rather than fabricated data (882ms)
+  ✓  8 [chromium] › tests/e2e/application.spec.ts:110:1 › responsive mobile navigation and no document-level horizontal overflow (1.3s)
+
+  8 passed (23.3s)

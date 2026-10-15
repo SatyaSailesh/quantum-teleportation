@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="16" failures="0" errors="0" time="0.881607393">
+    <testsuite name="tests/api.test.ts" timestamp="2026-10-14T12:24:31.686Z" hostname="e2b.local" tests="4" failures="0" errors="0" skipped="0" time="0.014496387">
+        <testcase classname="tests/api.test.ts" name="Frontend REST contracts and failures &gt; posts the complete settings to a relative REST endpoint" time="0.009541275">
+        </testcase>
+        <testcase classname="tests/api.test.ts" name="Frontend REST contracts and failures &gt; does not hide network failure behind an ideal fidelity" time="0.000860195">
+        </testcase>
+        <testcase classname="tests/api.test.ts" name="Frontend REST contracts and failures &gt; preserves request cancellation instead of treating it as a simulation error" time="0.001208255">
+        </testcase>
+        <testcase classname="tests/api.test.ts" name="Frontend REST contracts and failures &gt; exposes the backend validation error" time="0.001090365">
+        </testcase>
+    </testsuite>
+    <testsuite name="tests/controls.test.tsx" timestamp="2026-10-14T12:24:31.687Z" hostname="e2b.local" tests="8" failures="0" errors="0" skipped="0" time="0.86080793">
+        <testcase classname="tests/controls.test.tsx" name="Working circuit controls &gt; changes the actual angle configuration when a state preset is selected" time="0.198819846">
+        </testcase>
+        <testcase classname="tests/controls.test.tsx" name="Working circuit controls &gt; noise is initially disabled and the switch changes its enabled flag" time="0.052457137">
+        </testcase>
+        <testcase classname="tests/controls.test.tsx" name="Working circuit controls &gt; channel control updates the REST configuration while preserving canonical q2 site" time="0.051142245">
+        </testcase>
+        <testcase classname="tests/controls.test.tsx" name="Working circuit controls &gt; reset returns to an ideal circuit rather than leaving noise enabled" time="0.096442444">
+        </testcase>
+        <testcase classname="tests/controls.test.tsx" name="Working circuit controls &gt; shows backend failure with no synthetic simulation result" time="0.287336018">
+        </testcase>
+        <testcase classname="tests/controls.test.tsx" name="Working circuit controls &gt; allows normal keyboard editing of a decimal noise probability" time="0.095835437">
+        </testcase>
+        <testcase classname="tests/controls.test.tsx" name="Working circuit controls &gt; normalizes an out-of-range probability on blur instead of sending it to the backend" time="0.07219475">
+        </testcase>
+        <testcase classname="tests/controls.test.tsx" name="Working circuit controls &gt; displays the single canonical resource noise site card on q2" time="0.004335098">
+        </testcase>
+    </testsuite>
+    <testsuite name="tests/format.test.ts" timestamp="2026-10-14T12:24:31.689Z" hostname="e2b.local" tests="4" failures="0" errors="0" skipped="0" time="0.006303076">
+        <testcase classname="tests/format.test.ts" name="Scientific display formatting &gt; converts degrees and radians without changing input-state meaning" time="0.002077995">
+        </testcase>
+        <testcase classname="tests/format.test.ts" name="Scientific display formatting &gt; displays the complex phase and negative imaginary component correctly" time="0.000569862">
+        </testcase>
+        <testcase classname="tests/format.test.ts" name="Scientific display formatting &gt; removes only display-level roundoff and does not fake missing fidelity" time="0.000333582">
+        </testcase>
+        <testcase classname="tests/format.test.ts" name="Scientific display formatting &gt; starts with the ideal circuit and the single canonical resource site on q2" time="0.001705659">
+        </testcase>
+    </testsuite>
+</testsuites>

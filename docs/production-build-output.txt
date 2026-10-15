@@ -1,0 +1,15 @@
+
+> qubitlab-teleportation@1.0.0 build
+> tsc -b && vite build
+
+vite v6.4.4 building for production...
+transforming...
+✓ 2194 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   1.09 kB │ gzip:   0.61 kB
+dist/assets/index-1sHx20bN.css   45.67 kB │ gzip:  10.88 kB
+dist/assets/react-BR_GdTDN.js    51.00 kB │ gzip:  18.00 kB
+dist/assets/index-BWmtyAU9.js   299.97 kB │ gzip:  91.52 kB
+dist/assets/charts-CUSjqvHm.js  368.21 kB │ gzip: 108.13 kB
+✓ built in 6.08s

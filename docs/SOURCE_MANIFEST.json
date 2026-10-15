@@ -1,0 +1,550 @@
+{
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 188,
+      "sha256": "f1d74970567830ca5eace9088f042ec6d2f781b952e065ac04a55ceb0f54fe44"
+    },
+    {
+      "path": "Makefile",
+      "bytes": 503,
+      "sha256": "2376746b23d3b9ab933e98429c3e795106b2c8dbad45dd2f0cf9896945c027e0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 11735,
+      "sha256": "0de021edbca9a240f5dff8c3be492342e4335318183c6374b85eb499d94007d3"
+    },
+    {
+      "path": "backend/app/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "backend/app/circuit.py",
+      "bytes": 12509,
+      "sha256": "29b0137fed0db0895e1913ecf41751b567483c4a1e26232b62fd37295f186bef"
+    },
+    {
+      "path": "backend/app/engine.py",
+      "bytes": 8238,
+      "sha256": "a2d2c6eecb92d7825a6c8b6406299b21fd9cbc02de4055cd6b5cc9a7af8f4e6f"
+    },
+    {
+      "path": "backend/app/experiments.py",
+      "bytes": 6441,
+      "sha256": "c28f497dc9c2bf25c1f748a9905755ffbfcf32cc9d2fa61c7d5b1b1b49ae70d0"
+    },
+    {
+      "path": "backend/app/main.py",
+      "bytes": 7031,
+      "sha256": "e2e86fab3cc41a266b7a84d3be83485eb47efa15e6938f5c7323018faa395c12"
+    },
+    {
+      "path": "backend/app/models.py",
+      "bytes": 3921,
+      "sha256": "3a3268bab697576649e0d73aeb305466c2123ecefdaa7f8994b89f3cf58b2e91"
+    },
+    {
+      "path": "backend/docs/backend-tests.xml",
+      "bytes": 13272,
+      "sha256": "c2972046b8a4a6f87a5eba861dd003246065fd5f44c817679aed9d0b2f9b1a36"
+    },
+    {
+      "path": "backend/requirements-dev.txt",
+      "bytes": 48,
+      "sha256": "5aa3c210f980c38b62b3344833b66db55d3ffd4119df1700d04bea298b65d9c2"
+    },
+    {
+      "path": "backend/requirements.txt",
+      "bytes": 115,
+      "sha256": "a5ec1d1ba74b39737034a9c56f095135e1087c1ac41314a961846b669ccc82b2"
+    },
+    {
+      "path": "backend/tests/reference_numpy.py",
+      "bytes": 3080,
+      "sha256": "572747819a3b0accf7a74ca572a03b0c9c494fa94d32f76d2e576644a8f85608"
+    },
+    {
+      "path": "backend/tests/test_analysis.py",
+      "bytes": 3880,
+      "sha256": "0fe8cdb67a5b501fdc138e3f9f686f75802b222e76d4122570992882bc051844"
+    },
+    {
+      "path": "backend/tests/test_api.py",
+      "bytes": 3644,
+      "sha256": "0c9de74420f77716ad4d3cc28296524e3550203ef0647f86c875b4f8a77f0731"
+    },
+    {
+      "path": "backend/tests/test_ideal.py",
+      "bytes": 3050,
+      "sha256": "362fffb084469679895eea9601cc9df2a9940d9de6ed086e5ca356f4a8d57afe"
+    },
+    {
+      "path": "backend/tests/test_mitigation.py",
+      "bytes": 2635,
+      "sha256": "ba9da24b0b01cd0526a0ab979ba442ddc159198f8a4e7d797a09a47572358065"
+    },
+    {
+      "path": "backend/tests/test_noise.py",
+      "bytes": 4715,
+      "sha256": "c1ae59765f82240a3e3c996a06c683cc9cdd67c0b45c3c2d504750edc54b419b"
+    },
+    {
+      "path": "docs/SCIENTIFIC_NOTES.md",
+      "bytes": 8717,
+      "sha256": "84d38bdbfd1912bf3d4d99d10e9518630068487859d09328cc90bf12562a5d44"
+    },
+    {
+      "path": "docs/TEST_REPORT.md",
+      "bytes": 6852,
+      "sha256": "bf107dac05a04de4e680c46bfc6acf8d512ec26df2d414e409e52c9b906d9527"
+    },
+    {
+      "path": "docs/backend-test-output.txt",
+      "bytes": 746,
+      "sha256": "4a3c94448a0eae7c62d8728719eaae72eef626a0bfe2d228892b67b0c97ebff1"
+    },
+    {
+      "path": "docs/backend-tests.xml",
+      "bytes": 13272,
+      "sha256": "6f06155081cbbe4552079bab9bf534cf553f3780b954190f77a752db1d9c2b9c"
+    },
+    {
+      "path": "docs/e2e-test-output.txt",
+      "bytes": 1228,
+      "sha256": "de9c217fc8c3df2a490d0b5dd6270e08ef76fc45b1db61452d2e7f93a8d2d6be"
+    },
+    {
+      "path": "docs/e2e-tests.json",
+      "bytes": 11848,
+      "sha256": "7bb87f67a89febda93f546879831b90f41f2c7e4a6c3b0b788614e674bc8024d"
+    },
+    {
+      "path": "docs/e2e-tests.xml",
+      "bytes": 1427,
+      "sha256": "c5209ef43e449d60333a90274bcf984bba67efa0bf171b6f42810a084ff60dda"
+    },
+    {
+      "path": "docs/figure-export-output.txt",
+      "bytes": 205,
+      "sha256": "f542d74ef21c49c787e80c55ef5a7e67fd47c205d9d566f7e4604dc9111619e7"
+    },
+    {
+      "path": "docs/frontend-test-output.txt",
+      "bytes": 1045,
+      "sha256": "70201833baa4af180d5274df1ca150b46366f479c540ddeea7e2491d4424b3bc"
+    },
+    {
+      "path": "docs/frontend-tests.xml",
+      "bytes": 3879,
+      "sha256": "523ff537ef8c1ced539b4c75a4e9f0df57fcd843b9d0e802bfb4e7c5276a42e6"
+    },
+    {
+      "path": "docs/npm-audit-final.json",
+      "bytes": 364,
+      "sha256": "5cbb49eb90ac781aa799bce46333950c0361f6f7dff42b4e3e1db3f75a2b95bf"
+    },
+    {
+      "path": "docs/production-build-output.txt",
+      "bytes": 519,
+      "sha256": "41cd452bca2949711a987171cbcf44361fd3e6a62b00188689398d244ddcd6e0"
+    },
+    {
+      "path": "docs/production-e2e-test-output.txt",
+      "bytes": 1228,
+      "sha256": "0653af4edbbe847d3bd4249007599d7bb8da44dc93495c9f4f98ff61219e1083"
+    },
+    {
+      "path": "docs/production-e2e-tests.json",
+      "bytes": 11891,
+      "sha256": "444c0de6b6b0e137ed81d49c8d5c33813c32ee8db47e7e29c957810fc4ffbeab"
+    },
+    {
+      "path": "docs/production-e2e-tests.xml",
+      "bytes": 1437,
+      "sha256": "4e299118ac146a8e06124a306a51fdee4d00221f624fa4e80958dd8372e4610f"
+    },
+    {
+      "path": "docs/production-http-checks.json",
+      "bytes": 2197,
+      "sha256": "9aea3fb7d683fcdefb328c510e878c2d8f648a1f3e94f5401b0cdf57c5567b11"
+    },
+    {
+      "path": "docs/production-http-output.txt",
+      "bytes": 585,
+      "sha256": "337ed131dc66f78ef395d1543c78882e0994aed212f50af6f6506e0227b9d05a"
+    },
+    {
+      "path": "docs/reference-results/engine-versions.json",
+      "bytes": 178,
+      "sha256": "ed66664b365e659543c148fa04913f3a9ff94083fa7f4d538b50c6c157db501d"
+    },
+    {
+      "path": "docs/reference-results/example-mitigation.json",
+      "bytes": 2684,
+      "sha256": "113eba710fa877cd29bcc76786d740f6a6292a93f7381646303ffa7ea17bd377"
+    },
+    {
+      "path": "docs/reference-results/example-sweep.csv",
+      "bytes": 4495,
+      "sha256": "caf53b19af7c9c72b8019557e5847be99da76047c16325db5dd504d43a9f9abb"
+    },
+    {
+      "path": "docs/reference-results/example-sweep.json",
+      "bytes": 42725,
+      "sha256": "15ecd6bf24687846dcebbb81ee944c8f02b90f118237de870ad9a5d119482487"
+    },
+    {
+      "path": "docs/reference-results/ideal-circuit-native.svg",
+      "bytes": 46022,
+      "sha256": "8087697e1a767f112f03211aabff52c20aabbf871f584d9a35ebad99e7d10db8"
+    },
+    {
+      "path": "docs/reference-results/ideal-circuit.svg",
+      "bytes": 6296,
+      "sha256": "4c984fbd3605702dd10267a96b7d2ea34b2128cbc6c426988b619fea7c6d0d5e"
+    },
+    {
+      "path": "docs/reference-results/ideal-simulation.json",
+      "bytes": 20642,
+      "sha256": "1996ccd3b9e0a55d11772a2e269ce02b6ab5c4bced4bd552d4a40a600f5d8e9f"
+    },
+    {
+      "path": "docs/reference-results/noisy-circuit-native.svg",
+      "bytes": 48921,
+      "sha256": "569d51054b0c633b8389964168f25cc857408efdee9e39c768fae43fd7eba5db"
+    },
+    {
+      "path": "docs/reference-results/noisy-circuit.svg",
+      "bytes": 6680,
+      "sha256": "7d152f0b40068bf4ee6d70e82a54fad0e5f4e4de67cacb6c6bb9aecfaca5e432"
+    },
+    {
+      "path": "docs/reference-results/noisy-simulation.json",
+      "bytes": 22464,
+      "sha256": "eb348461f162747328ff6a7cd6a5f9025732c24c52d399b3b2c1ee2ce05cebbb"
+    },
+    {
+      "path": "docs/reference-results/plots/amplitude_damping.png",
+      "bytes": 101922,
+      "sha256": "1a86bfa96847db15a2977ef934e4befeef8e2084af04c42164b2c6d557e84335"
+    },
+    {
+      "path": "docs/reference-results/plots/amplitude_damping.svg",
+      "bytes": 57042,
+      "sha256": "37d13fdd2b88e19da3e3d1015fe48cd8c556d093136221d6b70d15bcd9eaa401"
+    },
+    {
+      "path": "docs/reference-results/plots/bit_flip.png",
+      "bytes": 100357,
+      "sha256": "6d4476d5b4e244c14833d0bbebe0b94e881ef04465d0a23c92b13f71ebeb6f79"
+    },
+    {
+      "path": "docs/reference-results/plots/bit_flip.svg",
+      "bytes": 55415,
+      "sha256": "b45fef2b47f05330089070cc609b2ef3ace6fc8d9fedcbba86817e1c91c6be68"
+    },
+    {
+      "path": "docs/reference-results/plots/combined-fidelity.png",
+      "bytes": 158286,
+      "sha256": "9db45b83655cde5dfe4031f2747d67351121bf3129ab4fc41720edda770e60ee"
+    },
+    {
+      "path": "docs/reference-results/plots/combined-fidelity.svg",
+      "bytes": 72583,
+      "sha256": "77be2f789f7199a8020a01a5bf8a0ba78f2a9b806475aa70b7dca841696190d3"
+    },
+    {
+      "path": "docs/reference-results/plots/depolarizing.png",
+      "bytes": 100678,
+      "sha256": "ac903c835b0e713c63267d4a7758d9132d0d835f5cb6a521c07f70457e8772ce"
+    },
+    {
+      "path": "docs/reference-results/plots/depolarizing.svg",
+      "bytes": 56577,
+      "sha256": "50a24598ec2c15ea511876182b6ba428e735043cb4570745135d3c3374593ab3"
+    },
+    {
+      "path": "docs/reference-results/plots/phase_damping.png",
+      "bytes": 95170,
+      "sha256": "2b5f2e2922cd60fa724fe486b77255b968b0b8ffbd7606bf3ef2d0c3b1813730"
+    },
+    {
+      "path": "docs/reference-results/plots/phase_damping.svg",
+      "bytes": 56558,
+      "sha256": "eb617324102907c59c84169f2f5289cbbee1f7844a4825218bf240a703edd9e6"
+    },
+    {
+      "path": "docs/reference-results/plots/zero-noise-extrapolation.png",
+      "bytes": 113592,
+      "sha256": "bae2fbf8a3363d055545914a3e1d75540aaea73bda273228c0256790620aebf6"
+    },
+    {
+      "path": "docs/reference-results/plots/zero-noise-extrapolation.svg",
+      "bytes": 60355,
+      "sha256": "ecc4357e65d13bec2ef10a79ebf10de610220d0ccfd5d6022cc5e26f222e3495"
+    },
+    {
+      "path": "docs/reference-results/system-architecture.svg",
+      "bytes": 3078,
+      "sha256": "d226358e0a99af97872562d8dace2ffdab3a83ac3f63110b87984ed900f46165"
+    },
+    {
+      "path": "docs/screenshots/error-mitigation.png",
+      "bytes": 285718,
+      "sha256": "79c0af944d33e8f0c0f5cee8c3953e0cdca60a844297ef0fdb36d71191180d62"
+    },
+    {
+      "path": "docs/screenshots/fidelity-analysis.png",
+      "bytes": 269133,
+      "sha256": "cccfca3f85926d36655ded6becea9254e21803f408fe4c350f03655e6d7a39b1"
+    },
+    {
+      "path": "docs/screenshots/mobile-overview.png",
+      "bytes": 273008,
+      "sha256": "140b54cf2e8346f252b1d8ec00ed98152de75fde2abfedb95e242dfc0463efa0"
+    },
+    {
+      "path": "docs/screenshots/noise-laboratory.png",
+      "bytes": 358977,
+      "sha256": "0469dd096a57526a9b363810ab369862a73e89bfcc9b16e0ac7f162e8ef0c52f"
+    },
+    {
+      "path": "docs/screenshots/overview.png",
+      "bytes": 367722,
+      "sha256": "58cc7a2231e2c839cd39a7f487a5ca61777c8b917d729c90f37dc45ff42f620a"
+    },
+    {
+      "path": "docs/screenshots/simulator.png",
+      "bytes": 245744,
+      "sha256": "1440556953d48bdc863c75cfe76711f6ae98aa95f7cc5274f5620a6d178cdde7"
+    },
+    {
+      "path": "docs/screenshots/system-architecture.png",
+      "bytes": 181212,
+      "sha256": "d2d29c52af57f1e2678df3ac4869ab6fce32fe8430f6035ed24e9433f1b6c1e1"
+    },
+    {
+      "path": "docs/screenshots/theory.png",
+      "bytes": 160233,
+      "sha256": "2e63db14ad260af32d0aa9e967bad95a41c247add8f0a180f328f8845d74ca61"
+    },
+    {
+      "path": "docs/validation-summary.json",
+      "bytes": 3237,
+      "sha256": "7cdcf1e91c7f9b8d935dd484024890dc76136e2f8de658d1c02c812a659a5ad6"
+    },
+    {
+      "path": "frontend/index.html",
+      "bytes": 837,
+      "sha256": "196023602596058d0cbac7e9b7d4304a37ec90c3d2301746ccfbce0a6595e531"
+    },
+    {
+      "path": "frontend/package-lock.json",
+      "bytes": 141548,
+      "sha256": "dce330a84e963a14bfc1a99c37bd55f2fe1deb99e76ed114aee3d76a1ac9caec"
+    },
+    {
+      "path": "frontend/package.json",
+      "bytes": 1014,
+      "sha256": "1295788c809c3bcf9703cdd565ad4b9757431c119c858d1802ec9c4208446f5d"
+    },
+    {
+      "path": "frontend/playwright.config.ts",
+      "bytes": 1475,
+      "sha256": "db0b6afeb82b79a993a46fcd1a404111ef6940299dbd89c1184743293a1b6cd3"
+    },
+    {
+      "path": "frontend/postcss.config.js",
+      "bytes": 50,
+      "sha256": "0a2fc2215a078c6b39f3dfc9cb62c7c453fbd417528622b58f010b8511ea3713"
+    },
+    {
+      "path": "frontend/src/App.tsx",
+      "bytes": 1090,
+      "sha256": "4b70d3137c95c7e8b420294958dd4e8b9429748e7655eb148c10e7de9a0620e7"
+    },
+    {
+      "path": "frontend/src/components/BlochSphere.tsx",
+      "bytes": 2965,
+      "sha256": "f8fbe58e85326622c723e67b064ae9a040d3dc0740d0b403e06ecc55c2715d31"
+    },
+    {
+      "path": "frontend/src/components/CircuitViewer.tsx",
+      "bytes": 4208,
+      "sha256": "477d3f83dcdc9937006e9a0339caf8baf083bd3036ba14d5abca104917d506ba"
+    },
+    {
+      "path": "frontend/src/components/Controls.tsx",
+      "bytes": 5370,
+      "sha256": "45b90c4ab3cb20812f5888b7978170f854cceb5087aaeae4555f3401eae52334"
+    },
+    {
+      "path": "frontend/src/components/FidelityChart.tsx",
+      "bytes": 3959,
+      "sha256": "309e9977ef3dad0e547452cfb25ff5c237c844f9e377c00ce065c0bc29807878"
+    },
+    {
+      "path": "frontend/src/components/Layout.tsx",
+      "bytes": 4101,
+      "sha256": "38f371a7d5ce056be8ff1294b981a5907b3941730ea298ba585f77fe0c7b4e2f"
+    },
+    {
+      "path": "frontend/src/components/StateDisplay.tsx",
+      "bytes": 6874,
+      "sha256": "bbb1cad4c588e5cb2404243d82033f70a2c9aff5a47fbbf4920d7d03c92939c9"
+    },
+    {
+      "path": "frontend/src/components/ui.tsx",
+      "bytes": 5391,
+      "sha256": "bab03398f51ca31af073fdd44a39cb3fb98f0de1dce0f131dc50767d247586d5"
+    },
+    {
+      "path": "frontend/src/lib/ExperimentContext.tsx",
+      "bytes": 4524,
+      "sha256": "1601e561ed14887fde5ac1a41b18ba71a5b3de9b195ae1c1c8a8db79ccd75179"
+    },
+    {
+      "path": "frontend/src/lib/api.ts",
+      "bytes": 2365,
+      "sha256": "c334a5d946309a63d68754fa8eead292178437e46d511db0e36bbad411504313"
+    },
+    {
+      "path": "frontend/src/lib/constants.ts",
+      "bytes": 2178,
+      "sha256": "0077d27a53aacd7602a0712a87c7d6a3de83b2776a9ac1c83d08ac40be33d4d6"
+    },
+    {
+      "path": "frontend/src/lib/format.ts",
+      "bytes": 1857,
+      "sha256": "3ad65875161466ed51482a1c79571f3259167b8a076dbc751a9cbf00a5ffd6d2"
+    },
+    {
+      "path": "frontend/src/lib/types.ts",
+      "bytes": 3332,
+      "sha256": "9aa940e8abf2d8312b2e8784f234e4830809638241f4d088e87eb2c5cfaf72f4"
+    },
+    {
+      "path": "frontend/src/main.tsx",
+      "bytes": 225,
+      "sha256": "e81aec37c1befe991a35934ed8b90b73e7262a01e4dffae60e1ce87967ff09b4"
+    },
+    {
+      "path": "frontend/src/pages/Analysis.tsx",
+      "bytes": 8268,
+      "sha256": "01825eeae65375d39c24ece77e7aaaa0d64f01d22acffa2aac40ec1fac8a1843"
+    },
+    {
+      "path": "frontend/src/pages/Mitigation.tsx",
+      "bytes": 16874,
+      "sha256": "a28639c23f5b4cccaf0c01b7907bc4b288683457266716abedd1bb461b9ab930"
+    },
+    {
+      "path": "frontend/src/pages/NoiseLab.tsx",
+      "bytes": 7235,
+      "sha256": "d238d67d636971ea57bc86633b4890300d4e6adb130881aeb1bced5ce4393be3"
+    },
+    {
+      "path": "frontend/src/pages/Overview.tsx",
+      "bytes": 5873,
+      "sha256": "3e0e536c1b6d7ae20fefd1561bdb3d13020a04dccf5e5c70a7fd8001c105dacf"
+    },
+    {
+      "path": "frontend/src/pages/Simulator.tsx",
+      "bytes": 2158,
+      "sha256": "2f54e9126c2aa815aa3c0e301f06e03092f14a04ecb6343ae037d2aeed8a563b"
+    },
+    {
+      "path": "frontend/src/pages/Theory.tsx",
+      "bytes": 18447,
+      "sha256": "4687c275bebe902f08321885235bfc465879657b11861f55e11fef0e4aeac044"
+    },
+    {
+      "path": "frontend/src/styles.css",
+      "bytes": 42757,
+      "sha256": "312b485ff2be3cfbb90f31953d6ff24e3c8db407a1f36feee308d4b29232d607"
+    },
+    {
+      "path": "frontend/tailwind.config.js",
+      "bytes": 367,
+      "sha256": "752b30c8f7a7452a3d35316b9233340f271a8e5df3cdf67adabc050e349eb4a5"
+    },
+    {
+      "path": "frontend/tests/api.test.ts",
+      "bytes": 1665,
+      "sha256": "980f9e34cbaec23880c9e774c6fa01021cbca7ecf6a98a50e67d5e33c5e6abbf"
+    },
+    {
+      "path": "frontend/tests/controls.test.tsx",
+      "bytes": 4173,
+      "sha256": "6efd5867730b2db1031dece084c6ca7f631038e5ed827576681ad7b072b3e6fb"
+    },
+    {
+      "path": "frontend/tests/e2e/application.spec.ts",
+      "bytes": 8472,
+      "sha256": "2b1de0e91e7731e6b58f2fbb809d53d100c1404b7ad893a9430f7fe0bd2979b9"
+    },
+    {
+      "path": "frontend/tests/format.test.ts",
+      "bytes": 1417,
+      "sha256": "881e0e0985758b08af9787ece24ee69e68022310949a89ab095e6837903e72a4"
+    },
+    {
+      "path": "frontend/tests/setup.ts",
+      "bytes": 157,
+      "sha256": "0a0b779a2b14153f3d7a94995e0e9779b7f8ec3d3043b7b7461e7cf9da4a4493"
+    },
+    {
+      "path": "frontend/tsconfig.json",
+      "bytes": 564,
+      "sha256": "c81d82155cbcb1de9713826a4695043df4157465ecf5c87b5fc5b5a0b1e71a57"
+    },
+    {
+      "path": "frontend/vite.config.ts",
+      "bytes": 696,
+      "sha256": "63f5499f1594fbefb798697c5e380891c27a56da5d229845b4f86e9b8fb3fe63"
+    },
+    {
+      "path": "frontend/vitest.config.ts",
+      "bytes": 376,
+      "sha256": "6b76046ba381cc99ee1e7810183fc76d6a502876dfc62ec54c2489790539e531"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 97,
+      "sha256": "c8d469c7f649eeaf503cc15e7518078b72114968dc445391979ec846433246ca"
+    },
+    {
+      "path": "scripts/dev.sh",
+      "bytes": 820,
+      "sha256": "69d2f01a77a8b174abc2c069f2d0f964da3a328bd4d6abde4d62d67df305f113"
+    },
+    {
+      "path": "scripts/export_results.py",
+      "bytes": 5980,
+      "sha256": "eab480322ee68dbf8cc991a9e2d30dfbfb8072994a3f43c79166606184beac17"
+    },
+    {
+      "path": "scripts/package_source.py",
+      "bytes": 2405,
+      "sha256": "e31fd1865abc8d4c2fc3b61e024f416e5f5229c8c0ed298e2d5c2ee9ef132632"
+    },
+    {
+      "path": "scripts/summarize_tests.py",
+      "bytes": 9321,
+      "sha256": "13d0ffa1a868a198678669b6800b4967c4ce5076ebeaf5d61928fbc5c1e60de6"
+    },
+    {
+      "path": "scripts/validate_qiskit_live.py",
+      "bytes": 15051,
+      "sha256": "b9b4e1b0a2d0f231508f3a8fededabf0913d9e7fb1578be67e054807727ffcd4"
+    },
+    {
+      "path": "scripts/verify_production.py",
+      "bytes": 4037,
+      "sha256": "1d6357b22d50cbcd616976a95d45dace62f2bed6b12a3f1ce11ed503de642545"
+    }
+  ],
+  "file_count_excluding_manifest": 109
+}

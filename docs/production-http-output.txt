@@ -1,0 +1,18 @@
+PASS · SPA route /
+PASS · SPA route /simulator
+PASS · SPA route /noise
+PASS · SPA route /analysis
+PASS · SPA route /mitigation
+PASS · SPA route /theory
+PASS · Built CSS and JavaScript are referenced
+PASS · Asset /assets/charts-CUSjqvHm.js
+PASS · Asset /assets/index-1sHx20bN.css
+PASS · Asset /assets/index-BWmtyAU9.js
+PASS · Asset /assets/react-BR_GdTDN.js
+PASS · Real API engine
+PASS · Ideal fidelity and density
+PASS · In-circuit noisy calculation
+PASS · Actual ZNE estimate
+PASS · Unknown API remains JSON 404
+PASS · Invalid request is rejected
+17 passed, 0 failed

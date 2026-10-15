@@ -1,0 +1,1350 @@
+{
+  "points": [
+    {
+      "p": 0.0,
+      "channels": {
+        "amplitude_damping": {
+          "average_fidelity": 0.9999999999999997,
+          "haar_average_fidelity": 0.9999999999999996,
+          "minimum": 0.9999999999999993,
+          "maximum": 0.9999999999999998,
+          "population_std": 1.0809243727453475e-16,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.9999999999999996,
+          "noise": {
+            "enabled": true,
+            "channel": "amplitude_damping",
+            "p": 0.0,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 3.3306690738754696e-16
+        },
+        "phase_damping": {
+          "average_fidelity": 0.9999999999999997,
+          "haar_average_fidelity": 0.9999999999999996,
+          "minimum": 0.9999999999999993,
+          "maximum": 0.9999999999999998,
+          "population_std": 1.0809243727453475e-16,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.9999999999999996,
+          "noise": {
+            "enabled": true,
+            "channel": "phase_damping",
+            "p": 0.0,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 3.3306690738754696e-16
+        },
+        "depolarizing": {
+          "average_fidelity": 0.9999999999999997,
+          "haar_average_fidelity": 0.9999999999999996,
+          "minimum": 0.9999999999999993,
+          "maximum": 0.9999999999999998,
+          "population_std": 1.93958324338926e-16,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.9999999999999996,
+          "noise": {
+            "enabled": true,
+            "channel": "depolarizing",
+            "p": 0.0,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 3.3306690738754696e-16
+        },
+        "bit_flip": {
+          "average_fidelity": 0.9999999999999997,
+          "haar_average_fidelity": 0.9999999999999996,
+          "minimum": 0.9999999999999993,
+          "maximum": 0.9999999999999998,
+          "population_std": 1.93958324338926e-16,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.9999999999999996,
+          "noise": {
+            "enabled": true,
+            "channel": "bit_flip",
+            "p": 0.0,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 3.3306690738754696e-16
+        }
+      }
+    },
+    {
+      "p": 0.1,
+      "channels": {
+        "amplitude_damping": {
+          "average_fidelity": 0.9662286464294908,
+          "haar_average_fidelity": 0.9662277660168381,
+          "minimum": 0.9505044764500677,
+          "maximum": 0.9743390077872986,
+          "population_std": 0.007255308828629973,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.974341649025257,
+          "noise": {
+            "enabled": true,
+            "channel": "amplitude_damping",
+            "p": 0.1,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.0337713535705092
+        },
+        "phase_damping": {
+          "average_fidelity": 0.982893504647083,
+          "haar_average_fidelity": 0.9828944326835043,
+          "minimum": 0.9743444331345202,
+          "maximum": 0.999468235130623,
+          "population_std": 0.007647767008799682,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.9743416490252566,
+          "noise": {
+            "enabled": true,
+            "channel": "phase_damping",
+            "p": 0.1,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.017106495352916973
+        },
+        "depolarizing": {
+          "average_fidelity": 0.9499999999999996,
+          "haar_average_fidelity": 0.95,
+          "minimum": 0.9499999999999997,
+          "maximum": 0.95,
+          "population_std": 2.3605841026662027e-16,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.9499999999999998,
+          "noise": {
+            "enabled": true,
+            "channel": "depolarizing",
+            "p": 0.1,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.05000000000000038
+        },
+        "bit_flip": {
+          "average_fidelity": 0.9333371605839492,
+          "haar_average_fidelity": 0.9333333333333333,
+          "minimum": 0.9000022431602395,
+          "maximum": 0.9979469879912648,
+          "population_std": 0.02980951604968535,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.95,
+          "noise": {
+            "enabled": true,
+            "channel": "bit_flip",
+            "p": 0.1,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.06666283941605078
+        }
+      }
+    },
+    {
+      "p": 0.2,
+      "channels": {
+        "amplitude_damping": {
+          "average_fidelity": 0.9314774380009667,
+          "haar_average_fidelity": 0.9314757303333054,
+          "minimum": 0.9009784935699319,
+          "maximum": 0.9472084724969742,
+          "population_std": 0.014072555885871989,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.947213595499958,
+          "noise": {
+            "enabled": true,
+            "channel": "amplitude_damping",
+            "p": 0.2,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.06852256199903328
+        },
+        "phase_damping": {
+          "average_fidelity": 0.964807154436152,
+          "haar_average_fidelity": 0.9648090636666387,
+          "minimum": 0.9472193231914185,
+          "maximum": 0.998906010931043,
+          "population_std": 0.015733595788987254,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.9472135954999581,
+          "noise": {
+            "enabled": true,
+            "channel": "phase_damping",
+            "p": 0.2,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.03519284556384805
+        },
+        "depolarizing": {
+          "average_fidelity": 0.9,
+          "haar_average_fidelity": 0.8999999999999999,
+          "minimum": 0.8999999999999998,
+          "maximum": 0.9000000000000001,
+          "population_std": 1.050809133373904e-16,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.8999999999999999,
+          "noise": {
+            "enabled": true,
+            "channel": "depolarizing",
+            "p": 0.2,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.09999999999999998
+        },
+        "bit_flip": {
+          "average_fidelity": 0.8666743211678988,
+          "haar_average_fidelity": 0.8666666666666667,
+          "minimum": 0.8000044863204792,
+          "maximum": 0.99589397598253,
+          "population_std": 0.059619032099370806,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.9,
+          "noise": {
+            "enabled": true,
+            "channel": "bit_flip",
+            "p": 0.2,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.13332567883210122
+        }
+      }
+    },
+    {
+      "p": 0.3,
+      "channels": {
+        "amplitude_damping": {
+          "average_fidelity": 0.89555581360501,
+          "haar_average_fidelity": 0.8955533421780257,
+          "minimum": 0.8514161276621104,
+          "maximum": 0.9183225989860848,
+          "population_std": 0.020366547393824704,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.9183300132670382,
+          "noise": {
+            "enabled": true,
+            "channel": "amplitude_damping",
+            "p": 0.3,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.10444418639498998
+        },
+        "phase_damping": {
+          "average_fidelity": 0.9455503882577873,
+          "haar_average_fidelity": 0.9455533421780251,
+          "minimum": 0.9183388750277507,
+          "maximum": 0.9983074037037764,
+          "population_std": 0.024342680118464202,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.9183300132670376,
+          "noise": {
+            "enabled": true,
+            "channel": "phase_damping",
+            "p": 0.3,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.054449611742212745
+        },
+        "depolarizing": {
+          "average_fidelity": 0.8499999999999996,
+          "haar_average_fidelity": 0.8499999999999994,
+          "minimum": 0.8499999999999994,
+          "maximum": 0.8499999999999996,
+          "population_std": 1.8549918689772906e-16,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.8499999999999994,
+          "noise": {
+            "enabled": true,
+            "channel": "depolarizing",
+            "p": 0.3,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.15000000000000036
+        },
+        "bit_flip": {
+          "average_fidelity": 0.8000114817518483,
+          "haar_average_fidelity": 0.8,
+          "minimum": 0.7000067294807188,
+          "maximum": 0.9938409639737953,
+          "population_std": 0.08942854814905624,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.8500000000000001,
+          "noise": {
+            "enabled": true,
+            "channel": "bit_flip",
+            "p": 0.3,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.19998851824815167
+        }
+      }
+    },
+    {
+      "p": 0.4,
+      "channels": {
+        "amplitude_damping": {
+          "average_fidelity": 0.8582020472390092,
+          "haar_average_fidelity": 0.8581988897471609,
+          "minimum": 0.8018092428290537,
+          "maximum": 0.8872888621451966,
+          "population_std": 0.026020274026684432,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.8872983346207413,
+          "noise": {
+            "enabled": true,
+            "channel": "amplitude_damping",
+            "p": 0.4,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.14179795276099083
+        },
+        "phase_damping": {
+          "average_fidelity": 0.9248614801093792,
+          "haar_average_fidelity": 0.9248655564138273,
+          "minimum": 0.8873105635340852,
+          "maximum": 0.9976642775512756,
+          "population_std": 0.033592029323034095,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.887298334620741,
+          "noise": {
+            "enabled": true,
+            "channel": "phase_damping",
+            "p": 0.4,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.07513851989062081
+        },
+        "depolarizing": {
+          "average_fidelity": 0.7999999999999999,
+          "haar_average_fidelity": 0.8,
+          "minimum": 0.7999999999999999,
+          "maximum": 0.8000000000000002,
+          "population_std": 1.2151322112004442e-16,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.8,
+          "noise": {
+            "enabled": true,
+            "channel": "depolarizing",
+            "p": 0.4,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.20000000000000007
+        },
+        "bit_flip": {
+          "average_fidelity": 0.7333486423357979,
+          "haar_average_fidelity": 0.7333333333333335,
+          "minimum": 0.6000089726409586,
+          "maximum": 0.9917879519650602,
+          "population_std": 0.11923806419874156,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.8000000000000003,
+          "noise": {
+            "enabled": true,
+            "channel": "bit_flip",
+            "p": 0.4,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.2666513576642021
+        }
+      }
+    },
+    {
+      "p": 0.5,
+      "channels": {
+        "amplitude_damping": {
+          "average_fidelity": 0.8190393391495157,
+          "haar_average_fidelity": 0.8190355937288492,
+          "minimum": 0.7521461260420264,
+          "maximum": 0.8535421543312736,
+          "population_std": 0.030865280664690634,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.8535533905932737,
+          "noise": {
+            "enabled": true,
+            "channel": "amplitude_damping",
+            "p": 0.5,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.18096066085048435
+        },
+        "phase_damping": {
+          "average_fidelity": 0.9023636302374788,
+          "haar_average_fidelity": 0.9023689270621824,
+          "minimum": 0.8535692810673847,
+          "maximum": 0.9969649194448043,
+          "population_std": 0.04365009852245754,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.8535533905932737,
+          "noise": {
+            "enabled": true,
+            "channel": "phase_damping",
+            "p": 0.5,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.09763636976252121
+        },
+        "depolarizing": {
+          "average_fidelity": 0.75,
+          "haar_average_fidelity": 0.75,
+          "minimum": 0.75,
+          "maximum": 0.7500000000000002,
+          "population_std": 9.480333893807275e-17,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.75,
+          "noise": {
+            "enabled": true,
+            "channel": "depolarizing",
+            "p": 0.5,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.25
+        },
+        "bit_flip": {
+          "average_fidelity": 0.6666858029197472,
+          "haar_average_fidelity": 0.6666666666666667,
+          "minimum": 0.5000112158011979,
+          "maximum": 0.9897349399563256,
+          "population_std": 0.14904758024842715,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.7500000000000002,
+          "noise": {
+            "enabled": true,
+            "channel": "bit_flip",
+            "p": 0.5,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.3333141970802528
+        }
+      }
+    },
+    {
+      "p": 0.6,
+      "channels": {
+        "amplitude_damping": {
+          "average_fidelity": 0.7774893811844752,
+          "haar_average_fidelity": 0.7774851773445586,
+          "minimum": 0.7024088002722673,
+          "maximum": 0.8162151544970878,
+          "population_std": 0.03464302422727924,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.8162277660168378,
+          "noise": {
+            "enabled": true,
+            "channel": "amplitude_damping",
+            "p": 0.6,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.2225106188155248
+        },
+        "phase_damping": {
+          "average_fidelity": 0.8774785304900307,
+          "haar_average_fidelity": 0.8774851773445584,
+          "minimum": 0.816247706580421,
+          "maximum": 0.9961913523556004,
+          "population_std": 0.054775430797298526,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.8162277660168378,
+          "noise": {
+            "enabled": true,
+            "channel": "phase_damping",
+            "p": 0.6,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.12252146950996934
+        },
+        "depolarizing": {
+          "average_fidelity": 0.6999999999999996,
+          "haar_average_fidelity": 0.6999999999999997,
+          "minimum": 0.6999999999999997,
+          "maximum": 0.7,
+          "population_std": 1.3970000036909087e-16,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.6999999999999997,
+          "noise": {
+            "enabled": true,
+            "channel": "depolarizing",
+            "p": 0.6,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.3000000000000004
+        },
+        "bit_flip": {
+          "average_fidelity": 0.6000229635036964,
+          "haar_average_fidelity": 0.5999999999999998,
+          "minimum": 0.40001345896143725,
+          "maximum": 0.9876819279475905,
+          "population_std": 0.1788570962981126,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.7,
+          "noise": {
+            "enabled": true,
+            "channel": "bit_flip",
+            "p": 0.6,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.39997703649630356
+        }
+      }
+    },
+    {
+      "p": 0.7,
+      "channels": {
+        "amplitude_damping": {
+          "average_fidelity": 0.7325786657713529,
+          "haar_average_fidelity": 0.7325741858350554,
+          "minimum": 0.6525670034984532,
+          "maximum": 0.7738478389436907,
+          "population_std": 0.03691828061141514,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.7738612787525831,
+          "noise": {
+            "enabled": true,
+            "channel": "amplitude_damping",
+            "p": 0.7,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.2674213342286471
+        },
+        "phase_damping": {
+          "average_fidelity": 0.8492326732945014,
+          "haar_average_fidelity": 0.8492408525017223,
+          "minimum": 0.7738858163742464,
+          "maximum": 0.9953133142623425,
+          "population_std": 0.06740325025059238,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.7738612787525833,
+          "noise": {
+            "enabled": true,
+            "channel": "phase_damping",
+            "p": 0.7,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.15076732670549864
+        },
+        "depolarizing": {
+          "average_fidelity": 0.6499999999999998,
+          "haar_average_fidelity": 0.6499999999999998,
+          "minimum": 0.6499999999999998,
+          "maximum": 0.6499999999999999,
+          "population_std": 7.93181640714469e-17,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.6499999999999998,
+          "noise": {
+            "enabled": true,
+            "channel": "depolarizing",
+            "p": 0.7,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.3500000000000002
+        },
+        "bit_flip": {
+          "average_fidelity": 0.5333601240876461,
+          "haar_average_fidelity": 0.5333333333333334,
+          "minimum": 0.3000157021216772,
+          "maximum": 0.9856289159388558,
+          "population_std": 0.20866661234779801,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.6500000000000002,
+          "noise": {
+            "enabled": true,
+            "channel": "bit_flip",
+            "p": 0.7,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.4666398759123539
+        }
+      }
+    },
+    {
+      "p": 0.8,
+      "channels": {
+        "amplitude_damping": {
+          "average_fidelity": 0.682409002565298,
+          "haar_average_fidelity": 0.6824045318333193,
+          "minimum": 0.6025617294238549,
+          "maximum": 0.7235933855540425,
+          "population_std": 0.03684242961779522,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.7236067977499788,
+          "noise": {
+            "enabled": true,
+            "channel": "amplitude_damping",
+            "p": 0.8,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.317590997434702
+        },
+        "phase_damping": {
+          "average_fidelity": 0.815727868306039,
+          "haar_average_fidelity": 0.8157378651666529,
+          "minimum": 0.7236367883318205,
+          "maximum": 0.9942717988682995,
+          "population_std": 0.0823821770816418,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.7236067977499792,
+          "noise": {
+            "enabled": true,
+            "channel": "phase_damping",
+            "p": 0.8,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.18427213169396095
+        },
+        "depolarizing": {
+          "average_fidelity": 0.5999999999999996,
+          "haar_average_fidelity": 0.5999999999999998,
+          "minimum": 0.5999999999999996,
+          "maximum": 0.5999999999999998,
+          "population_std": 1.050809133373904e-16,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.5999999999999998,
+          "noise": {
+            "enabled": true,
+            "channel": "depolarizing",
+            "p": 0.8,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.40000000000000036
+        },
+        "bit_flip": {
+          "average_fidelity": 0.46669728467159555,
+          "haar_average_fidelity": 0.4666666666666667,
+          "minimum": 0.2000179452819168,
+          "maximum": 0.9835759039301208,
+          "population_std": 0.2384761283974834,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.6000000000000001,
+          "noise": {
+            "enabled": true,
+            "channel": "bit_flip",
+            "p": 0.8,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.5333027153284045
+        }
+      }
+    },
+    {
+      "p": 0.9,
+      "channels": {
+        "amplitude_damping": {
+          "average_fidelity": 0.6220798323746451,
+          "haar_average_fidelity": 0.6220759220056128,
+          "minimum": 0.5522406414555784,
+          "maximum": 0.6581021519013218,
+          "population_std": 0.03222458795106921,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.658113883008419,
+          "noise": {
+            "enabled": true,
+            "channel": "amplitude_damping",
+            "p": 0.9,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.37792016762535485
+        },
+        "phase_damping": {
+          "average_fidelity": 0.7720635563329784,
+          "haar_average_fidelity": 0.7720759220056126,
+          "minimum": 0.6581509800263217,
+          "maximum": 0.992914469580578,
+          "population_std": 0.10190309458579744,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.658113883008419,
+          "noise": {
+            "enabled": true,
+            "channel": "phase_damping",
+            "p": 0.9,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.2279364436670216
+        },
+        "depolarizing": {
+          "average_fidelity": 0.5499999999999999,
+          "haar_average_fidelity": 0.5499999999999999,
+          "minimum": 0.5499999999999999,
+          "maximum": 0.5499999999999999,
+          "population_std": 0.0,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.5499999999999999,
+          "noise": {
+            "enabled": true,
+            "channel": "depolarizing",
+            "p": 0.9,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.45000000000000007
+        },
+        "bit_flip": {
+          "average_fidelity": 0.40003444525554493,
+          "haar_average_fidelity": 0.4,
+          "minimum": 0.10002018844215649,
+          "maximum": 0.9815228919213859,
+          "population_std": 0.26828564444716874,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.5500000000000002,
+          "noise": {
+            "enabled": true,
+            "channel": "bit_flip",
+            "p": 0.9,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.5999655547444551
+        }
+      }
+    },
+    {
+      "p": 1.0,
+      "channels": {
+        "amplitude_damping": {
+          "average_fidelity": 0.5,
+          "haar_average_fidelity": 0.5,
+          "minimum": 0.5,
+          "maximum": 0.5000000000000001,
+          "population_std": 5.99588961666477e-17,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.5,
+          "noise": {
+            "enabled": true,
+            "channel": "amplitude_damping",
+            "p": 1.0,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.5
+        },
+        "phase_damping": {
+          "average_fidelity": 0.6666485821759259,
+          "haar_average_fidelity": 0.6666666666666666,
+          "minimum": 0.5000542534722222,
+          "maximum": 0.9896375868055556,
+          "population_std": 0.14903075837429636,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.5,
+          "noise": {
+            "enabled": true,
+            "channel": "phase_damping",
+            "p": 1.0,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.33335141782407407
+        },
+        "depolarizing": {
+          "average_fidelity": 0.5,
+          "haar_average_fidelity": 0.5,
+          "minimum": 0.5,
+          "maximum": 0.5,
+          "population_std": 0.0,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.5,
+          "noise": {
+            "enabled": true,
+            "channel": "depolarizing",
+            "p": 1.0,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.5
+        },
+        "bit_flip": {
+          "average_fidelity": 0.3333716058394945,
+          "haar_average_fidelity": 0.3333333333333335,
+          "minimum": 2.2431602396510986e-05,
+          "maximum": 0.9794698799126506,
+          "population_std": 0.298095160496854,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.5000000000000001,
+          "noise": {
+            "enabled": true,
+            "channel": "bit_flip",
+            "p": 1.0,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.6666283941605056
+        }
+      }
+    }
+  ],
+  "table": [
+    {
+      "p": 0.0,
+      "channels": {
+        "amplitude_damping": {
+          "average_fidelity": 0.9999999999999997,
+          "haar_average_fidelity": 0.9999999999999996,
+          "minimum": 0.9999999999999993,
+          "maximum": 0.9999999999999998,
+          "population_std": 1.0809243727453475e-16,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.9999999999999996,
+          "noise": {
+            "enabled": true,
+            "channel": "amplitude_damping",
+            "p": 0.0,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 3.3306690738754696e-16
+        },
+        "phase_damping": {
+          "average_fidelity": 0.9999999999999997,
+          "haar_average_fidelity": 0.9999999999999996,
+          "minimum": 0.9999999999999993,
+          "maximum": 0.9999999999999998,
+          "population_std": 1.0809243727453475e-16,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.9999999999999996,
+          "noise": {
+            "enabled": true,
+            "channel": "phase_damping",
+            "p": 0.0,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 3.3306690738754696e-16
+        },
+        "depolarizing": {
+          "average_fidelity": 0.9999999999999997,
+          "haar_average_fidelity": 0.9999999999999996,
+          "minimum": 0.9999999999999993,
+          "maximum": 0.9999999999999998,
+          "population_std": 1.93958324338926e-16,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.9999999999999996,
+          "noise": {
+            "enabled": true,
+            "channel": "depolarizing",
+            "p": 0.0,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 3.3306690738754696e-16
+        },
+        "bit_flip": {
+          "average_fidelity": 0.9999999999999997,
+          "haar_average_fidelity": 0.9999999999999996,
+          "minimum": 0.9999999999999993,
+          "maximum": 0.9999999999999998,
+          "population_std": 1.93958324338926e-16,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.9999999999999996,
+          "noise": {
+            "enabled": true,
+            "channel": "bit_flip",
+            "p": 0.0,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 3.3306690738754696e-16
+        }
+      }
+    },
+    {
+      "p": 0.2,
+      "channels": {
+        "amplitude_damping": {
+          "average_fidelity": 0.9314774380009667,
+          "haar_average_fidelity": 0.9314757303333054,
+          "minimum": 0.9009784935699319,
+          "maximum": 0.9472084724969742,
+          "population_std": 0.014072555885871989,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.947213595499958,
+          "noise": {
+            "enabled": true,
+            "channel": "amplitude_damping",
+            "p": 0.2,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.06852256199903328
+        },
+        "phase_damping": {
+          "average_fidelity": 0.964807154436152,
+          "haar_average_fidelity": 0.9648090636666387,
+          "minimum": 0.9472193231914185,
+          "maximum": 0.998906010931043,
+          "population_std": 0.015733595788987254,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.9472135954999581,
+          "noise": {
+            "enabled": true,
+            "channel": "phase_damping",
+            "p": 0.2,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.03519284556384805
+        },
+        "depolarizing": {
+          "average_fidelity": 0.9,
+          "haar_average_fidelity": 0.8999999999999999,
+          "minimum": 0.8999999999999998,
+          "maximum": 0.9000000000000001,
+          "population_std": 1.050809133373904e-16,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.8999999999999999,
+          "noise": {
+            "enabled": true,
+            "channel": "depolarizing",
+            "p": 0.2,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.09999999999999998
+        },
+        "bit_flip": {
+          "average_fidelity": 0.8666743211678988,
+          "haar_average_fidelity": 0.8666666666666667,
+          "minimum": 0.8000044863204792,
+          "maximum": 0.99589397598253,
+          "population_std": 0.059619032099370806,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.9,
+          "noise": {
+            "enabled": true,
+            "channel": "bit_flip",
+            "p": 0.2,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.13332567883210122
+        }
+      }
+    },
+    {
+      "p": 0.5,
+      "channels": {
+        "amplitude_damping": {
+          "average_fidelity": 0.8190393391495157,
+          "haar_average_fidelity": 0.8190355937288492,
+          "minimum": 0.7521461260420264,
+          "maximum": 0.8535421543312736,
+          "population_std": 0.030865280664690634,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.8535533905932737,
+          "noise": {
+            "enabled": true,
+            "channel": "amplitude_damping",
+            "p": 0.5,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.18096066085048435
+        },
+        "phase_damping": {
+          "average_fidelity": 0.9023636302374788,
+          "haar_average_fidelity": 0.9023689270621824,
+          "minimum": 0.8535692810673847,
+          "maximum": 0.9969649194448043,
+          "population_std": 0.04365009852245754,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.8535533905932737,
+          "noise": {
+            "enabled": true,
+            "channel": "phase_damping",
+            "p": 0.5,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.09763636976252121
+        },
+        "depolarizing": {
+          "average_fidelity": 0.75,
+          "haar_average_fidelity": 0.75,
+          "minimum": 0.75,
+          "maximum": 0.7500000000000002,
+          "population_std": 9.480333893807275e-17,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.75,
+          "noise": {
+            "enabled": true,
+            "channel": "depolarizing",
+            "p": 0.5,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.25
+        },
+        "bit_flip": {
+          "average_fidelity": 0.6666858029197472,
+          "haar_average_fidelity": 0.6666666666666667,
+          "minimum": 0.5000112158011979,
+          "maximum": 0.9897349399563256,
+          "population_std": 0.14904758024842715,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.7500000000000002,
+          "noise": {
+            "enabled": true,
+            "channel": "bit_flip",
+            "p": 0.5,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.3333141970802528
+        }
+      }
+    },
+    {
+      "p": 0.8,
+      "channels": {
+        "amplitude_damping": {
+          "average_fidelity": 0.682409002565298,
+          "haar_average_fidelity": 0.6824045318333193,
+          "minimum": 0.6025617294238549,
+          "maximum": 0.7235933855540425,
+          "population_std": 0.03684242961779522,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.7236067977499788,
+          "noise": {
+            "enabled": true,
+            "channel": "amplitude_damping",
+            "p": 0.8,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.317590997434702
+        },
+        "phase_damping": {
+          "average_fidelity": 0.815727868306039,
+          "haar_average_fidelity": 0.8157378651666529,
+          "minimum": 0.7236367883318205,
+          "maximum": 0.9942717988682995,
+          "population_std": 0.0823821770816418,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.7236067977499792,
+          "noise": {
+            "enabled": true,
+            "channel": "phase_damping",
+            "p": 0.8,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.18427213169396095
+        },
+        "depolarizing": {
+          "average_fidelity": 0.5999999999999996,
+          "haar_average_fidelity": 0.5999999999999998,
+          "minimum": 0.5999999999999996,
+          "maximum": 0.5999999999999998,
+          "population_std": 1.050809133373904e-16,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.5999999999999998,
+          "noise": {
+            "enabled": true,
+            "channel": "depolarizing",
+            "p": 0.8,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.40000000000000036
+        },
+        "bit_flip": {
+          "average_fidelity": 0.46669728467159555,
+          "haar_average_fidelity": 0.4666666666666667,
+          "minimum": 0.2000179452819168,
+          "maximum": 0.9835759039301208,
+          "population_std": 0.2384761283974834,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.6000000000000001,
+          "noise": {
+            "enabled": true,
+            "channel": "bit_flip",
+            "p": 0.8,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.5333027153284045
+        }
+      }
+    },
+    {
+      "p": 1.0,
+      "channels": {
+        "amplitude_damping": {
+          "average_fidelity": 0.5,
+          "haar_average_fidelity": 0.5,
+          "minimum": 0.5,
+          "maximum": 0.5000000000000001,
+          "population_std": 5.99588961666477e-17,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.5,
+          "noise": {
+            "enabled": true,
+            "channel": "amplitude_damping",
+            "p": 1.0,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.5
+        },
+        "phase_damping": {
+          "average_fidelity": 0.6666485821759259,
+          "haar_average_fidelity": 0.6666666666666666,
+          "minimum": 0.5000542534722222,
+          "maximum": 0.9896375868055556,
+          "population_std": 0.14903075837429636,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.5,
+          "noise": {
+            "enabled": true,
+            "channel": "phase_damping",
+            "p": 1.0,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.33335141782407407
+        },
+        "depolarizing": {
+          "average_fidelity": 0.5,
+          "haar_average_fidelity": 0.5,
+          "minimum": 0.5,
+          "maximum": 0.5,
+          "population_std": 0.0,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.5,
+          "noise": {
+            "enabled": true,
+            "channel": "depolarizing",
+            "p": 1.0,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.5
+        },
+        "bit_flip": {
+          "average_fidelity": 0.3333716058394945,
+          "haar_average_fidelity": 0.3333333333333335,
+          "minimum": 2.2431602396510986e-05,
+          "maximum": 0.9794698799126506,
+          "population_std": 0.298095160496854,
+          "sample_count": 96,
+          "sample_id": "6663b1d1c042e1f9",
+          "state_fidelity": 0.5000000000000001,
+          "noise": {
+            "enabled": true,
+            "channel": "bit_flip",
+            "p": 1.0,
+            "locations": [
+              "bell_cx_q2"
+            ]
+          },
+          "difference_from_ideal": 0.6666283941605056
+        }
+      }
+    }
+  ],
+  "settings": {
+    "locations": [
+      "bell_cx_q2"
+    ],
+    "location_details": [
+      {
+        "id": "bell_cx_q2",
+        "stage": "entanglement",
+        "qubit": 2,
+        "gate": "CX",
+        "label": "Bob's Bell qubit (q2)",
+        "description": "Resource-state noise on Bob's Bell-pair qubit immediately after CX(q1,q2) and before Alice's Bell-state measurement."
+      }
+    ],
+    "sample_count": 96,
+    "sample_id": "6663b1d1c042e1f9",
+    "channels": [
+      "amplitude_damping",
+      "phase_damping",
+      "depolarizing",
+      "bit_flip"
+    ],
+    "theta": 1.5707963267948966,
+    "phi": 0.7853981633974483,
+    "probabilities": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ]
+  },
+  "method": "Four exact Aer circuit probes per (channel,p), linear CPTP process reconstruction, equal-area Fibonacci sphere sample.",
+  "probe_states": [
+    "|0>",
+    "|1>",
+    "|+>",
+    "|+i>"
+  ],
+  "benchmark": 0.6666666666666666,
+  "benchmark_explanation": "2/3 is the optimal classical measure-and-prepare average fidelity for an unknown pure single-qubit state uniformly distributed on the Bloch sphere. It is an ensemble average across all uniformly distributed pure states, NOT a per-state threshold. Individual states may have fidelity higher or lower than 2/3 under noise.",
+  "ideal_reference": 1.0
+}

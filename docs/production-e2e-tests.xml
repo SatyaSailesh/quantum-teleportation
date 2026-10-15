@@ -1,0 +1,20 @@
+<testsuites id="" name="" tests="8" failures="0" skipped="0" errors="0" time="17.134498999999998">
+<testsuite name="application.spec.ts" timestamp="2026-10-14T12:21:35.124Z" hostname="chromium" tests="8" failures="0" skipped="0" time="15.248" errors="0">
+<testcase name="ideal startup, real API proxy, and synchronized circuit" classname="application.spec.ts" time="3.293">
+</testcase>
+<testcase name="state parameters, in-circuit depolarizing noise, native drawing, and reset" classname="application.spec.ts" time="3.074">
+</testcase>
+<testcase name="four channel selection buttons on canonical resource site q2 are functional" classname="application.spec.ts" time="1.625">
+</testcase>
+<testcase name="real average-fidelity graphs, selected table, shared sample, and CSV export" classname="application.spec.ts" time="2.33">
+</testcase>
+<testcase name="actual zero-noise extrapolation and a high-noise non-improving case" classname="application.spec.ts" time="1.065">
+</testcase>
+<testcase name="all six pages, viva accordions, and separate architecture diagram" classname="application.spec.ts" time="1.982">
+</testcase>
+<testcase name="backend failure displays the actual error rather than fabricated data" classname="application.spec.ts" time="0.74">
+</testcase>
+<testcase name="responsive mobile navigation and no document-level horizontal overflow" classname="application.spec.ts" time="1.139">
+</testcase>
+</testsuite>
+</testsuites>

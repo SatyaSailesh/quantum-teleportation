@@ -1,0 +1,130 @@
+{
+  "generated_at": "2026-10-14T17:52:18+05:30",
+  "suites": {
+    "Backend / scientific + API": {
+      "tests": 103,
+      "passed": 103,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 4.004,
+      "file": "backend-tests.xml"
+    },
+    "Frontend / Vitest unit + contract": {
+      "tests": 16,
+      "passed": 16,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 0.9734644060000001,
+      "file": "frontend-tests.xml"
+    },
+    "Chromium / live development integration": {
+      "tests": 8,
+      "passed": 8,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 21.074,
+      "file": "e2e-tests.xml"
+    },
+    "Chromium / built production integration": {
+      "tests": 8,
+      "passed": 8,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 15.248,
+      "file": "production-e2e-tests.xml"
+    }
+  },
+  "production_http": {
+    "checked_at": "2026-10-14T12:22:01.737046+00:00",
+    "base_url": "http://127.0.0.1:8000",
+    "passed": 17,
+    "failed": 0,
+    "checks": [
+      {
+        "name": "SPA route /",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "name": "SPA route /simulator",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "name": "SPA route /noise",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "name": "SPA route /analysis",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "name": "SPA route /mitigation",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "name": "SPA route /theory",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "name": "Built CSS and JavaScript are referenced",
+        "passed": true,
+        "detail": "['/assets/charts-CUSjqvHm.js', '/assets/index-DpEgr6Aw.js', '/assets/index-ebOgCwlg.css', '/assets/react-BR_GdTDN.js']"
+      },
+      {
+        "name": "Asset /assets/charts-CUSjqvHm.js",
+        "passed": true,
+        "detail": "text/javascript; charset=utf-8"
+      },
+      {
+        "name": "Asset /assets/index-DpEgr6Aw.js",
+        "passed": true,
+        "detail": "text/javascript; charset=utf-8"
+      },
+      {
+        "name": "Asset /assets/index-ebOgCwlg.css",
+        "passed": true,
+        "detail": "text/css; charset=utf-8"
+      },
+      {
+        "name": "Asset /assets/react-BR_GdTDN.js",
+        "passed": true,
+        "detail": "text/javascript; charset=utf-8"
+      },
+      {
+        "name": "Real API engine",
+        "passed": true,
+        "detail": "{\"status\": \"ok\", \"engine\": \"Qiskit Aer\", \"method\": \"density_matrix\", \"qiskit\": \"2.5.2\", \"qiskit_aer\": \"0.17.2\", \"version\": \"1.0.0\", \"exact_branch_ensemble\": true}"
+      },
+      {
+        "name": "Ideal fidelity and density",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "name": "In-circuit noisy calculation",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "name": "Actual ZNE estimate",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "name": "Unknown API remains JSON 404",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "name": "Invalid request is rejected",
+        "passed": true,
+        "detail": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "status": "ok",
+  "engine": "Qiskit Aer",
+  "method": "density_matrix",
+  "qiskit": "2.5.2",
+  "qiskit_aer": "0.17.2",
+  "version": "1.0.0",
+  "exact_branch_ensemble": true
+}

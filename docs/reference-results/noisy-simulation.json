@@ -1,0 +1,390 @@
+{
+  "settings": {
+    "theta": 1.5707963267948966,
+    "phi": 0.7853981633974483,
+    "noise": {
+      "enabled": true,
+      "channel": "depolarizing",
+      "p": 0.2,
+      "locations": [
+        "bell_cx_q2"
+      ]
+    }
+  },
+  "input_state": [
+    {
+      "re": 0.7071067811865476,
+      "im": 0.0
+    },
+    {
+      "re": 0.5,
+      "im": 0.4999999999999999
+    }
+  ],
+  "input_density": [
+    [
+      {
+        "re": 0.5000000000000001,
+        "im": 0.0
+      },
+      {
+        "re": 0.3535533905932738,
+        "im": -0.35355339059327373
+      }
+    ],
+    [
+      {
+        "re": 0.3535533905932738,
+        "im": 0.35355339059327373
+      },
+      {
+        "re": 0.4999999999999999,
+        "im": 0.0
+      }
+    ]
+  ],
+  "output_density": [
+    [
+      {
+        "re": 0.5,
+        "im": 0.0
+      },
+      {
+        "re": 0.282842712474619,
+        "im": -0.28284271247461884
+      }
+    ],
+    [
+      {
+        "re": 0.282842712474619,
+        "im": 0.28284271247461884
+      },
+      {
+        "re": 0.49999999999999983,
+        "im": 0.0
+      }
+    ]
+  ],
+  "input_bloch": [
+    0.7071067811865476,
+    0.7071067811865475,
+    2.220446049250313e-16
+  ],
+  "output_bloch": [
+    0.565685424949238,
+    0.5656854249492377,
+    1.6653345369377348e-16
+  ],
+  "fidelity": 0.8999999999999997,
+  "ideal_fidelity": 1.0,
+  "difference_from_ideal": 0.10000000000000031,
+  "purity": 0.8199999999999996,
+  "validation": {
+    "hermitian": true,
+    "trace": 0.9999999999999998,
+    "eigenvalues": [
+      0.1,
+      0.8999999999999998
+    ],
+    "positive_semidefinite": true,
+    "valid": true
+  },
+  "branches": [
+    {
+      "mZ": 0,
+      "mX": 0,
+      "probability": 0.24999999999999997,
+      "correction": "I",
+      "fidelity": 0.8999999999999999,
+      "output_density": [
+        [
+          {
+            "re": 0.5,
+            "im": 0.0
+          },
+          {
+            "re": 0.28284271247461906,
+            "im": -0.2828427124746189
+          }
+        ],
+        [
+          {
+            "re": 0.28284271247461906,
+            "im": 0.2828427124746189
+          },
+          {
+            "re": 0.5,
+            "im": 0.0
+          }
+        ]
+      ]
+    },
+    {
+      "mZ": 0,
+      "mX": 1,
+      "probability": 0.24999999999999997,
+      "correction": "X ",
+      "fidelity": 0.8999999999999999,
+      "output_density": [
+        [
+          {
+            "re": 0.5000000000000004,
+            "im": 0.0
+          },
+          {
+            "re": 0.28284271247461906,
+            "im": -0.2828427124746189
+          }
+        ],
+        [
+          {
+            "re": 0.28284271247461906,
+            "im": 0.2828427124746189
+          },
+          {
+            "re": 0.49999999999999967,
+            "im": 0.0
+          }
+        ]
+      ]
+    },
+    {
+      "mZ": 1,
+      "mX": 0,
+      "probability": 0.24999999999999994,
+      "correction": "Z",
+      "fidelity": 0.8999999999999999,
+      "output_density": [
+        [
+          {
+            "re": 0.49999999999999983,
+            "im": 0.0
+          },
+          {
+            "re": 0.28284271247461906,
+            "im": -0.2828427124746189
+          }
+        ],
+        [
+          {
+            "re": 0.28284271247461906,
+            "im": 0.2828427124746189
+          },
+          {
+            "re": 0.5000000000000002,
+            "im": 0.0
+          }
+        ]
+      ]
+    },
+    {
+      "mZ": 1,
+      "mX": 1,
+      "probability": 0.24999999999999994,
+      "correction": "X Z",
+      "fidelity": 0.8999999999999999,
+      "output_density": [
+        [
+          {
+            "re": 0.5000000000000002,
+            "im": 0.0
+          },
+          {
+            "re": 0.28284271247461906,
+            "im": -0.2828427124746189
+          }
+        ],
+        [
+          {
+            "re": 0.28284271247461906,
+            "im": 0.2828427124746189
+          },
+          {
+            "re": 0.49999999999999983,
+            "im": 0.0
+          }
+        ]
+      ]
+    }
+  ],
+  "circuit": {
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"teleportation-circuit\" role=\"img\" aria-label=\"Executed Qiskit teleportation circuit\" viewBox=\"0 0 1012 394\" width=\"1012\" height=\"394\"><style>.teleportation-circuit text{font-family:ui-monospace,SFMono-Regular,Consolas,monospace} .teleportation-circuit .small{font-size:10px} .teleportation-circuit .wire{stroke:#4b607a;stroke-width:1.3} .teleportation-circuit .cw{stroke:#6e829e;stroke-width:1} .teleportation-circuit .gate{fill:#1e354b;stroke:#6c9ebb;stroke-width:1.2}</style><defs><marker id=\"arrow\" markerWidth=\"6\" markerHeight=\"6\" refX=\"5\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6\" fill=\"#8ba1bd\"/></marker></defs><rect width=\"1012\" height=\"394\" rx=\"8\" fill=\"#111c2d\"/><rect x=\"172\" y=\"25\" width=\"60\" height=\"30\" rx=\"7\" fill=\"#172334\"/><text x=\"202.0\" y=\"44\" text-anchor=\"middle\" font-size=\"10\" fill=\"#b8cbe3\">Input</text><rect x=\"246\" y=\"25\" width=\"192\" height=\"30\" rx=\"7\" fill=\"#182f3c\"/><text x=\"342.0\" y=\"44\" text-anchor=\"middle\" font-size=\"10\" fill=\"#b8cbe3\">Bell pair</text><rect x=\"456\" y=\"25\" width=\"126\" height=\"30\" rx=\"7\" fill=\"#1c213b\"/><text x=\"519.0\" y=\"44\" text-anchor=\"middle\" font-size=\"10\" fill=\"#b8cbe3\">Bell measurement</text><rect x=\"588\" y=\"25\" width=\"126\" height=\"30\" rx=\"7\" fill=\"#1c213b\"/><text x=\"651.0\" y=\"44\" text-anchor=\"middle\" font-size=\"10\" fill=\"#b8cbe3\">Readout</text><rect x=\"720\" y=\"25\" width=\"126\" height=\"30\" rx=\"7\" fill=\"#152a29\"/><text x=\"783.0\" y=\"44\" text-anchor=\"middle\" font-size=\"10\" fill=\"#b8cbe3\">Feed forward</text><rect x=\"852\" y=\"25\" width=\"60\" height=\"30\" rx=\"7\" fill=\"#172334\"/><text x=\"882.0\" y=\"44\" text-anchor=\"middle\" font-size=\"10\" fill=\"#b8cbe3\">Bob output</text><text x=\"16\" y=\"101\" fill=\"#d6e5f4\" font-size=\"12\" font-weight=\"600\">q0</text><text x=\"16\" y=\"117\" fill=\"#8194ad\" font-size=\"9\">Alice \u00b7 input |\u03c8\u27e9</text><line x1=\"160\" y1=\"107\" x2=\"992\" y2=\"107\" class=\"wire\"/><text x=\"16\" y=\"168\" fill=\"#d6e5f4\" font-size=\"12\" font-weight=\"600\">q1</text><text x=\"16\" y=\"184\" fill=\"#8194ad\" font-size=\"9\">Alice \u00b7 Bell pair</text><line x1=\"160\" y1=\"174\" x2=\"992\" y2=\"174\" class=\"wire\"/><text x=\"16\" y=\"235\" fill=\"#d6e5f4\" font-size=\"12\" font-weight=\"600\">q2</text><text x=\"16\" y=\"251\" fill=\"#8194ad\" font-size=\"9\">Bob \u00b7 Bell pair &amp; output \u03c1</text><line x1=\"160\" y1=\"241\" x2=\"992\" y2=\"241\" class=\"wire\"/><text x=\"16\" y=\"315\" fill=\"#90a4bf\" font-size=\"11\">mZ \u2190 q0</text><line x1=\"160\" y1=\"309\" x2=\"992\" y2=\"309\" class=\"cw\"/><line x1=\"160\" y1=\"313\" x2=\"992\" y2=\"313\" class=\"cw\"/><text x=\"16\" y=\"353\" fill=\"#90a4bf\" font-size=\"11\">mX \u2190 q1</text><line x1=\"160\" y1=\"347\" x2=\"992\" y2=\"347\" class=\"cw\"/><line x1=\"160\" y1=\"351\" x2=\"992\" y2=\"351\" class=\"cw\"/><g data-operation=\"u\" data-noise=\"false\" data-condition=\"\"><title>U \u00b7 Input preparation</title><rect x=\"176.0\" y=\"89\" width=\"52\" height=\"36\" rx=\"6\" fill=\"#173b46\" stroke=\"#6c9ebb\"/><text x=\"202\" y=\"112\" text-anchor=\"middle\" font-size=\"13\" fill=\"#daf0fc\">\u03c8(\u03b8,\u03c6)</text></g><g data-operation=\"h\" data-noise=\"false\" data-condition=\"\"><title>H \u00b7 Bell pair</title><rect x=\"259.0\" y=\"156\" width=\"34\" height=\"36\" rx=\"6\" fill=\"#1e354b\" stroke=\"#6c9ebb\"/><text x=\"276\" y=\"179\" text-anchor=\"middle\" font-size=\"13\" fill=\"#daf0fc\">H</text></g><g data-operation=\"cx\" data-noise=\"false\" data-condition=\"\"><title>CX \u00b7 Bell pair</title><line x1=\"342\" y1=\"174\" x2=\"342\" y2=\"241\" stroke=\"#b1c3df\" stroke-width=\"1.6\"/><circle cx=\"342\" cy=\"174\" r=\"4.5\" fill=\"#b1c3df\"/><circle cx=\"342\" cy=\"241\" r=\"13\" fill=\"#132235\" stroke=\"#b1c3df\" stroke-width=\"1.5\"/><path d=\"M334,241h16 M342,233v16\" stroke=\"#b1c3df\" stroke-width=\"1.5\"/></g><g data-operation=\"kraus\" data-noise=\"true\" data-condition=\"\"><title>DEP(0.200) \u00b7 Bell pair</title><rect x=\"379\" y=\"219\" width=\"58\" height=\"44\" rx=\"7\" fill=\"#342332\" stroke=\"#e9a177\" stroke-dasharray=\"3 2\"/><text x=\"408\" y=\"239\" text-anchor=\"middle\" font-size=\"12\" fill=\"#ffbf99\">DEP</text><text x=\"408\" y=\"254\" text-anchor=\"middle\" font-size=\"9\" fill=\"#e2a989\">p=0.200</text></g><g data-operation=\"cx\" data-noise=\"false\" data-condition=\"\"><title>CX \u00b7 Bell measurement</title><line x1=\"486\" y1=\"107\" x2=\"486\" y2=\"174\" stroke=\"#b1c3df\" stroke-width=\"1.6\"/><circle cx=\"486\" cy=\"107\" r=\"4.5\" fill=\"#b1c3df\"/><circle cx=\"486\" cy=\"174\" r=\"13\" fill=\"#132235\" stroke=\"#b1c3df\" stroke-width=\"1.5\"/><path d=\"M478,174h16 M486,166v16\" stroke=\"#b1c3df\" stroke-width=\"1.5\"/></g><g data-operation=\"h\" data-noise=\"false\" data-condition=\"\"><title>H \u00b7 Bell measurement</title><rect x=\"535.0\" y=\"89\" width=\"34\" height=\"36\" rx=\"6\" fill=\"#1e354b\" stroke=\"#6c9ebb\"/><text x=\"552\" y=\"112\" text-anchor=\"middle\" font-size=\"13\" fill=\"#daf0fc\">H</text></g><g data-operation=\"measure\" data-noise=\"false\" data-condition=\"\"><title>MEASURE \u00b7 Readout</title><path d=\"M616,125 V304 M620,125 V304\" class=\"cw\"/><path d=\"M618,296V307\" stroke=\"#8ba1bd\" marker-end=\"url(#arrow)\"/><rect x=\"601\" y=\"89\" width=\"34\" height=\"36\" rx=\"5\" class=\"gate\"/><path d=\"M608,112 A11,11 0 0,1 628,112 M618,112l8,-12\" stroke=\"#d4e5f9\" fill=\"none\" stroke-width=\"1.5\"/></g><g data-operation=\"measure\" data-noise=\"false\" data-condition=\"\"><title>MEASURE \u00b7 Readout</title><path d=\"M682,192 V342 M686,192 V342\" class=\"cw\"/><path d=\"M684,334V345\" stroke=\"#8ba1bd\" marker-end=\"url(#arrow)\"/><rect x=\"667\" y=\"156\" width=\"34\" height=\"36\" rx=\"5\" class=\"gate\"/><path d=\"M674,179 A11,11 0 0,1 694,179 M684,179l8,-12\" stroke=\"#d4e5f9\" fill=\"none\" stroke-width=\"1.5\"/></g><g data-operation=\"x\" data-noise=\"false\" data-condition=\"{&#x27;bit&#x27;: &#x27;mX&#x27;, &#x27;value&#x27;: 1}\"><title>X \u00b7 Feed forward</title><path d=\"M748,259V349 M752,259V349\" class=\"cw\"/><circle cx=\"750\" cy=\"349\" r=\"4.5\" fill=\"#67d8b9\"/><text x=\"750\" y=\"369\" class=\"small\" fill=\"#8edcc8\" text-anchor=\"middle\">mX=1</text><rect x=\"733.0\" y=\"223\" width=\"34\" height=\"36\" rx=\"6\" fill=\"#1e354b\" stroke=\"#6c9ebb\"/><text x=\"750\" y=\"246\" text-anchor=\"middle\" font-size=\"13\" fill=\"#daf0fc\">X</text></g><g data-operation=\"z\" data-noise=\"false\" data-condition=\"{&#x27;bit&#x27;: &#x27;mZ&#x27;, &#x27;value&#x27;: 1}\"><title>Z \u00b7 Feed forward</title><path d=\"M814,259V311 M818,259V311\" class=\"cw\"/><circle cx=\"816\" cy=\"311\" r=\"4.5\" fill=\"#67d8b9\"/><text x=\"816\" y=\"331\" class=\"small\" fill=\"#8edcc8\" text-anchor=\"middle\">mZ=1</text><rect x=\"799.0\" y=\"223\" width=\"34\" height=\"36\" rx=\"6\" fill=\"#1e354b\" stroke=\"#6c9ebb\"/><text x=\"816\" y=\"246\" text-anchor=\"middle\" font-size=\"13\" fill=\"#daf0fc\">Z</text></g><g data-operation=\"save_density_matrix\" data-noise=\"false\" data-condition=\"\"><title>bob \u00b7 Bob output</title><rect x=\"865.0\" y=\"223\" width=\"34\" height=\"36\" rx=\"6\" fill=\"#123b32\" stroke=\"#6c9ebb\"/><text x=\"882\" y=\"246\" text-anchor=\"middle\" font-size=\"13\" fill=\"#daf0fc\">\u03c1B</text></g></svg>",
+    "text": "      \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510 Bell pair                          Bell measurement      \u250c\u2500\u2500\u2500\u2510 Readout \u250c\u2500\u2510    Feed forward                                                Bob output      \n q_0: \u2524 U(\u03c0/2,\u03c0/4,0) \u251c\u2500\u2500\u2500\u2500\u2500\u2591\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2591\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25a0\u2500\u2500\u2524 H \u251c\u2500\u2500\u2500\u2500\u2591\u2500\u2500\u2500\u2500\u2524M\u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2591\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2591\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n      \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518     \u2591     \u250c\u2500\u2500\u2500\u2510                           \u2591         \u250c\u2500\u2534\u2500\u2510\u2514\u2500\u2500\u2500\u2518    \u2591    \u2514\u2565\u2518\u250c\u2500\u2510      \u2591                                                          \u2591           \n q_1: \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2591\u2500\u2500\u2500\u2500\u2500\u2524 H \u251c\u2500\u2500\u25a0\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2591\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524 X \u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2591\u2500\u2500\u2500\u2500\u2500\u256b\u2500\u2524M\u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2591\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2591\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n                           \u2591     \u2514\u2500\u2500\u2500\u2518\u250c\u2500\u2534\u2500\u2510\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510        \u2591         \u2514\u2500\u2500\u2500\u2518         \u2591     \u2551 \u2514\u2565\u2518      \u2591       \u250c\u2500\u2500\u2500\u2500\u2500\u2500 \u250c\u2500\u2500\u2500\u2510 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510 \u250c\u2500\u2500\u2500\u2500\u2500\u2500 \u250c\u2500\u2500\u2500\u2510 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510      \u2591       bob \n q_2: \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2591\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524 X \u251c\u2524 DEP(0.200) \u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2591\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2591\u2500\u2500\u2500\u2500\u2500\u256b\u2500\u2500\u256b\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2591\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524 If-0  \u2524 X \u251c  End-0 \u251c\u2500\u2524 If-0  \u2524 Z \u251c  End-0 \u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2591\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2591\u2500\u2500\n                           \u2591          \u2514\u2500\u2500\u2500\u2518\u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518        \u2591                       \u2591     \u2551  \u2551       \u2591       \u2514\u2500\u2500\u2565\u2500\u2500\u2500 \u2514\u2500\u2500\u2500\u2518 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518 \u2514\u2500\u2500\u2565\u2500\u2500\u2500 \u2514\u2500\u2500\u2500\u2518 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518      \u2591        \u2591  \n                                                                                               \u2551  \u2551                  \u2551                   \u250c\u2500\u2500\u2568\u2500\u2500\u2510                                 \nmZ: 1/\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2569\u2550\u2550\u256c\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u256c\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2561 0x1 \u255e\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\n                                                                                               0  \u2551               \u250c\u2500\u2500\u2568\u2500\u2500\u2510                \u2514\u2500\u2500\u2500\u2500\u2500\u2518                                 \nmX: 1/\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2569\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2561 0x1 \u255e\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\n                                                                                                  0               \u2514\u2500\u2500\u2500\u2500\u2500\u2518                                                        ",
+    "operations": [
+      {
+        "name": "u",
+        "label": "U",
+        "qubits": [
+          0
+        ],
+        "clbits": [],
+        "stage": "Input preparation",
+        "condition": null,
+        "noise": false,
+        "params": [
+          1.5707963267948966,
+          0.7853981633974483,
+          0.0
+        ]
+      },
+      {
+        "name": "h",
+        "label": "H",
+        "qubits": [
+          1
+        ],
+        "clbits": [],
+        "stage": "Bell pair",
+        "condition": null,
+        "noise": false,
+        "params": []
+      },
+      {
+        "name": "cx",
+        "label": "CX",
+        "qubits": [
+          1,
+          2
+        ],
+        "clbits": [],
+        "stage": "Bell pair",
+        "condition": null,
+        "noise": false,
+        "params": []
+      },
+      {
+        "name": "kraus",
+        "label": "DEP(0.200)",
+        "qubits": [
+          2
+        ],
+        "clbits": [],
+        "stage": "Bell pair",
+        "condition": null,
+        "noise": true,
+        "params": []
+      },
+      {
+        "name": "cx",
+        "label": "CX",
+        "qubits": [
+          0,
+          1
+        ],
+        "clbits": [],
+        "stage": "Bell measurement",
+        "condition": null,
+        "noise": false,
+        "params": []
+      },
+      {
+        "name": "h",
+        "label": "H",
+        "qubits": [
+          0
+        ],
+        "clbits": [],
+        "stage": "Bell measurement",
+        "condition": null,
+        "noise": false,
+        "params": []
+      },
+      {
+        "name": "measure",
+        "label": "MEASURE",
+        "qubits": [
+          0
+        ],
+        "clbits": [
+          0
+        ],
+        "stage": "Readout",
+        "condition": null,
+        "noise": false,
+        "params": []
+      },
+      {
+        "name": "measure",
+        "label": "MEASURE",
+        "qubits": [
+          1
+        ],
+        "clbits": [
+          1
+        ],
+        "stage": "Readout",
+        "condition": null,
+        "noise": false,
+        "params": []
+      },
+      {
+        "name": "x",
+        "label": "X",
+        "qubits": [
+          2
+        ],
+        "clbits": [],
+        "stage": "Feed forward",
+        "condition": {
+          "bit": "mX",
+          "value": 1
+        },
+        "noise": false,
+        "params": []
+      },
+      {
+        "name": "z",
+        "label": "Z",
+        "qubits": [
+          2
+        ],
+        "clbits": [],
+        "stage": "Feed forward",
+        "condition": {
+          "bit": "mZ",
+          "value": 1
+        },
+        "noise": false,
+        "params": []
+      },
+      {
+        "name": "save_density_matrix",
+        "label": "bob",
+        "qubits": [
+          2
+        ],
+        "clbits": [],
+        "stage": "Bob output",
+        "condition": null,
+        "noise": false,
+        "params": []
+      }
+    ],
+    "noise_insertions": [
+      {
+        "location": "bell_cx_q2",
+        "stage": "entanglement",
+        "qubit": 2,
+        "gate": "CX",
+        "label": "Bob's Bell qubit (q2)",
+        "description": "Resource-state noise on Bob's Bell-pair qubit immediately after CX(q1,q2) and before Alice's Bell-state measurement.",
+        "channel": "depolarizing",
+        "probability": 0.2,
+        "repetitions": 1,
+        "physically_nonzero": true
+      }
+    ],
+    "classical_mapping": {
+      "mZ": "q0 \u2192 conditional Z(q2)",
+      "mX": "q1 \u2192 conditional X(q2)"
+    }
+  },
+  "engine": {
+    "name": "Qiskit Aer",
+    "method": "density_matrix",
+    "sampling": false,
+    "ensemble": "Exact projection probabilities; deterministic measurement and if_test execution per branch.",
+    "measurement_branches": 4,
+    "elapsed_ms": 18.49
+  }
+}
