@@ -72,6 +72,19 @@ Open **<http://localhost:8000>**. All routes (`/`, `/simulator`, `/noise`, `/ana
 
 ---
 
+## Deploying to Render (without Docker)
+
+The root `render.yaml` defines a native Python API service and a static Vite frontend. To deploy both:
+
+1. In the [Render Dashboard](https://dashboard.render.com), choose **New → Blueprint**.
+2. Connect `SatyaSailesh/quantum-teleportation` and select the `main` branch.
+3. Review the two services and choose **Apply**. Render builds the frontend and backend, then supplies the backend URL to the frontend automatically.
+4. Open the frontend service URL. Check the backend at `<backend-service-url>/api/health`.
+
+The backend allows cross-origin requests because the API is public and the Render frontend and API use separate URLs; it does not enable credentialed requests. The free plan may sleep when idle and has limited memory, which can affect simulation startup or heavier experiments.
+
+---
+
 ## 2. Core Scientific Architecture
 
 ### Qubit Roles & Circuit Sequence

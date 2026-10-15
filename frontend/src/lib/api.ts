@@ -1,11 +1,16 @@
 import type { ExperimentConfig, Health, MitigationConfig, MitigationResult, SimulationResult, SweepResult } from './types';
 
+const configuredApiUrl = import.meta.env.VITE_API_URL?.replace(/\/+$/, '');
+const apiOrigin = configuredApiUrl
+  ? (/^https?:\/\//i.test(configuredApiUrl) ? configuredApiUrl : `https://${configuredApiUrl}`)
+  : '';
+
 export class ApiError extends Error {
   constructor(message: string, public status?: number) { super(message); this.name = 'ApiError'; }
 }
 async function checkedFetch(path: string, init: RequestInit): Promise<Response> {
   let response: Response;
-  try { response = await fetch(`/api${path}`, init); }
+  try { response = await fetch(`${apiOrigin}/api${path}`, init); }
   catch (error) {
     if (typeof error === 'object' && error !== null && 'name' in error && error.name === 'AbortError') throw error;
     throw new ApiError('Cannot reach the quantum backend. Start FastAPI on port 8000, then retry.');

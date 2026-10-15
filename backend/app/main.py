@@ -1,6 +1,7 @@
 """FastAPI endpoints; never return synthetic fallback values on engine failure."""
 import logging
 import math
+import os
 from pathlib import Path
 import time
 
@@ -21,7 +22,8 @@ from .models import SimulationRequest, SweepRequest, MitigationRequest, Channel,
 logger = logging.getLogger("qubitlab")
 app = FastAPI(title="QubitLab · Teleportation under circuit noise", version="1.0.0",
               description="Three-qubit Qiskit Aer density-matrix simulation with exact measurement-branch averaging.")
-app.add_middleware(CORSMiddleware, allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
+cors_origins = [origin.strip() for origin in os.getenv("CORS_ORIGINS", "").split(",") if origin.strip()]
+app.add_middleware(CORSMiddleware, allow_origins=cors_origins or ["http://localhost:5173", "http://127.0.0.1:5173"],
                    allow_methods=["GET", "POST"], allow_headers=["Content-Type"])
 
 
