@@ -23,7 +23,10 @@ logger = logging.getLogger("qubitlab")
 app = FastAPI(title="QubitLab · Teleportation under circuit noise", version="1.0.0",
               description="Three-qubit Qiskit Aer density-matrix simulation with exact measurement-branch averaging.")
 cors_origins = [origin.strip() for origin in os.getenv("CORS_ORIGINS", "").split(",") if origin.strip()]
-app.add_middleware(CORSMiddleware, allow_origins=cors_origins or ["http://localhost:5173", "http://127.0.0.1:5173"],
+app.add_middleware(CORSMiddleware, allow_origins=cors_origins or [
+    "http://localhost:5173", "http://127.0.0.1:5173",
+    "https://quantum-teleportation-two.vercel.app",
+],
                    allow_methods=["GET", "POST"], allow_headers=["Content-Type"])
 
 

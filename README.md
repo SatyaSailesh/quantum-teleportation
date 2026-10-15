@@ -81,7 +81,7 @@ The root `render.yaml` defines a native Python API service and a static Vite fro
 3. Review the two services and choose **Apply**. Render builds the frontend and backend, then supplies the backend URL to the frontend automatically.
 4. Open the frontend service URL. Check the backend at `<backend-service-url>/api/health`.
 
-The backend allows cross-origin requests because the API is public and the Render frontend and API use separate URLs; it does not enable credentialed requests. The free plan may sleep when idle and has limited memory, which can affect simulation startup or heavier experiments.
+The backend allows the configured Vercel frontend origin and local Vite development origins; it does not enable credentialed cross-origin requests. Set `CORS_ORIGINS` on Render to a comma-separated list if your frontend origin changes. The free plan may sleep when idle and has limited memory, which can affect simulation startup or heavier experiments.
 
 ---
 
